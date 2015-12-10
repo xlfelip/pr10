@@ -1,5 +1,5 @@
 <?php
-class Curl {
+class Curl { //Creamos la clase Curl
 
     public function get($url, $token) {
         $ch = curl_init($url);
